@@ -1,7 +1,7 @@
 
 
-const Container = ({children}) => {
-  return <div className="flex">{children}</div>
+const Container = ({children,className}) => {
+  return <div className={`flex ${className}`}>{children}</div>
 }
 
 export default Container

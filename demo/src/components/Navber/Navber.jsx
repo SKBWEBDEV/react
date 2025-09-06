@@ -1,6 +1,6 @@
 import Container from "../Layouts/Container"
 import logo from "../../assets/logo.png"
-// import Flex from "../Layouts/Flex"
+import Flex from "../Layouts/Flex"
 
 const Navber = () => {
   return (
@@ -12,8 +12,8 @@ const Navber = () => {
           </div>
 
           <div>
-            {/* <Flex> */}
-              <ul className="flex items-center space-x-[47px] text-white text-[16px] font-semibold font-popins">
+            <Flex className={"items-center space-x-[47px] text-white text-[16px] font-semibold font-popins list-none"}>
+              {/* <ul className="flex items-center space-x-[47px] text-white text-[16px] font-semibold font-popins"> */}
               <li><a href="">Home</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Services</a></li>
@@ -22,8 +22,8 @@ const Navber = () => {
             
 
               <li className="border py-[14px] px-[32px]"><a href="">CONTACT</a></li>
-              </ul>
-              {/* </Flex> */}
+              {/* </ul> */}
+              </Flex>
             
           </div>
 
