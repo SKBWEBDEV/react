@@ -2,7 +2,7 @@ import Header from "./components/Header/Header"
 import Navber from "./components/Navber/Navber"
 import Banner from "./components/Banner/Banner"
 import Country from "./components/Country/Country"
-import Slider from "./components/Slider/Slider"
+import ImageSlider from "./components/Slider/imageSlider"
 import Our from "./components/Our/Our"
 import About from "./components/About/About"
 import Biosool from "./components/Biosool/Biosool"
@@ -20,7 +20,7 @@ function App() {
       <Navber></Navber>
       <Banner></Banner>
       <Country></Country>
-      <Slider></Slider>
+      <ImageSlider></ImageSlider>
       <Our></Our>
       <About></About>
       <Biosool></Biosool>

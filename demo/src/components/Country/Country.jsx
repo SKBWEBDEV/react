@@ -4,7 +4,7 @@ import Flex from "../Layouts/Flex";
 const Country = () => {
   return (
     <Container>
-      <Flex className="justify-between items-center py-[80px]">
+      <Flex className="justify-between items-center py-[80px] font-poppins">
         <div className="font-popins font-bold w-[289px] text-[48px]">
           <h2>The biggest supplier on the country</h2>
         </div>

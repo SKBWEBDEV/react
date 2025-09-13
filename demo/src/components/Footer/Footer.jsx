@@ -13,7 +13,7 @@ import CertOne from "../../assets/certOne.png"
 
 const Footer = () => {
   return (
-    <div className="bg-[#1F1F1F] text-white py-[160px]">
+    <div className="bg-[#1F1F1F] text-white py-[160px] font-poppins">
       <Container>
         <Flex className= "justify-between">
           <div>
@@ -42,27 +42,27 @@ const Footer = () => {
 
 {/* ------------------------------------------------------------------------------------------ */}
 
-          <div className="mt-[20px]">
-            <h3 className="font-bold font-popins">Company</h3>
-            <p className="mt-[20px] font-popins text-[14px]">Home</p>
-            <p className="mt-[20px] font-popins text-[14px]">About</p>
-            <p className="mt-[20px] font-popins text-[14px]">Services</p>
-            <p className="mt-[20px] font-popins text-[14px]">Gallery</p>
+          <div className="mt-[20px] ">
+            <h3 className="font-bold font-popins text-[20px]">Company</h3>
+            <p className="mt-[20px] font-popins text-[18px]">Home</p>
+            <p className="mt-[20px] font-popins text-[18px]">About</p>
+            <p className="mt-[20px] font-popins text-[18px]">Services</p>
+            <p className="mt-[20px] font-popins text-[18px]">Gallery</p>
           </div>
 
 {/* ------------------------------------------------------------------------------------------ */}
 
-          <div className="mt-[20px]">
-            <h3 className="font-bold font-popins">Others</h3>
-            <p className="mt-[20px] font-popins text-[14px]">Home</p>
-            <p className="mt-[20px] font-popins text-[14px]">Blog</p>
-            <p className="mt-[20px] font-popins text-[14px]">Terms & Conditions</p>
-            <p className="mt-[20px] font-popins text-[14px]">Privacy Policy</p>
+          <div className="mt-[20px] ">
+            <h3 className="font-bold font-popins text-[20px]">Others</h3>
+            <p className="mt-[20px] font-popins text-[18px]">Home</p>
+            <p className="mt-[20px] font-popins text-[18px]">Blog</p>
+            <p className="mt-[20px] font-popins text-[18px]">Terms & Conditions</p>
+            <p className="mt-[20px] font-popins text-[18px]">Privacy Policy</p>
           </div>
 
 {/* ------------------------------------------------------------------------------------------ */}
 
-          <div className="mt-[20px]">
+          <div className="mt-[20px] text-[20px]">
             <h3 className="font-bold font-popins">Certificate</h3>
           <div className="flex gap-[7px] mt-[21px]">
             <img src={Cert} alt="" />

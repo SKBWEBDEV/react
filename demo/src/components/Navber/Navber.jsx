@@ -4,7 +4,7 @@ import Flex from "../Layouts/Flex"
 
 const Navber = () => {
   return (
-    <div className="bg-[#F40404] py-[30px] items-center text-white">
+    <div className="bg-[#F40404] py-[30px] items-center text-white font-poppins">
       <Container>
         <div className="flex justify-between">
           <div>

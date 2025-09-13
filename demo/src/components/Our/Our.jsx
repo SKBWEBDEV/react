@@ -2,10 +2,10 @@ import Flex from "../Layouts/Flex";
 const Our = () => {
   return (
     <div>
-      <Flex className="mt-[28px] items-center">
+      <Flex className="mt-[28px] items-center font-poppins">
         <div className="pl-[390px] w-[50%]">
           <h1 className="font-bold font-popins text-[64px]">Our Services</h1>
-          <p className="font-popins font-medium w-[405px]">
+          <p className="font-popins font-medium w-[405px] text-[18px]">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>

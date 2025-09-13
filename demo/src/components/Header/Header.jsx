@@ -12,12 +12,12 @@ const Header = () => {
       <Container>
         <div className="flex py-[16px] justify-between">
           <div className="flex space-x-[50px]">
-            <div className="flex itmes-center items-center">
+            <div className="flex itmes-center items-center gap-2">
               <IoMailUnread />
               <p>mail@yourcompany.com</p>
             </div>
 
-            <div className=" relative content-[''] after:absolute after:top-[5px] after:left-[-20px] after:w-[3px] after:h-[16px] after:bg-[#5C6A92] flex itmes-center  items-center">
+            <div className=" relative content-[''] after:absolute after:top-[5px] after:left-[-20px] after:w-[3px] after:h-[16px] after:bg-[#5C6A92] flex itmes-center gap-2 items-center">
               <FaPhoneVolume />
               <p>+896 120 5889 (Toll free)</p>
             </div>

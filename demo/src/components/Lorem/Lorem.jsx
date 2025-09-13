@@ -4,7 +4,7 @@ import { FaGreaterThan } from "react-icons/fa6";
 
 const Lorem = () => {
   return (
-    <div className="bg-[#F0F0F0] py-[130px]">
+    <div className="bg-[#F0F0F0] py-[130px] font-poppins">
       <Container>
         <Flex className="justify-between">
           <div className="z-[1] relative bg-[url(./assets/unsplash.png)] bg-no-repeat bg-cover py-[75px] px-[44px]">

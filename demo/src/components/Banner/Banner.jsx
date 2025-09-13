@@ -4,7 +4,7 @@ import Container from "../Layouts/Container"
 const Banner = () => {
   return (
     <div>
-      <div className="z-[1] relative bg-[url(./assets/banner.png)] py-[257px] bg-no-repeat bg-cover">
+      <div className="z-[1] relative bg-[url(./assets/banner.png)] py-[257px] bg-no-repeat bg-cover font-poppins">
       <div className="z-[-1] absolute h-full w-full top-0 left-0 bg-black/50"></div>
         
             <Container>
