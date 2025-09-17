@@ -6,14 +6,14 @@ import Brac from "../../assets/brac.png"
 import Bio from "../../assets/bio.png"
 const Biosool = () => {
   return (
-    <div className="py-[117px]">
+    <div className="py-14 md:py-[117px]">
       <Container>
-        <Flex className="gap-[26px] itmes-center">
+        <div className=" md:flex gap-[26px] ">
           <img src={Pet} alt="" />
           <img src={The} alt="" />
           <img src={Brac} alt="" />
           <img src={Bio} alt="" />
-        </Flex>
+        </div>
       </Container>
     </div>
   )

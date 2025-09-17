@@ -24,14 +24,14 @@ const ImageSlider = () => {
 
          <div className="slider-container">
       <Slider {...settings}>
-        <img className="w-[24%] px-3 h-[426px]" src={One} alt="" />
-        <img className="w-[24%] px-3 h-[426px]" src={Two} alt="" />
-        <img className="w-[24%] px-3 h-[426px]" src={Three} alt="" />
-        <img className="w-[24%] px-3 h-[426px]" src={Four} alt="" />
-        <img className="w-[24%] px-3 h-[426px]" src={One} alt="" />
-        <img className="w-[24%] px-3 h-[426px]" src={Two} alt="" />
-        <img className="w-[24%] px-3 h-[426px]" src={Three} alt="" />
-        <img className="w-[24%] px-3 h-[426px]" src={Four} alt="" />
+        <img className="w-[24%] px-1 md:px-3 h-[180px] md:h-[426px]" src={One} alt="" />
+        <img className="w-[24%] px-1 md:px-3 h-[180px] md:h-[426px]" src={Two} alt="" />
+        <img className="w-[24%] px-1 md:px-3 h-[180px] md:h-[426px]" src={Three} alt="" />
+        <img className="w-[24%] px-1 md:px-3 h-[180px] md:h-[426px]" src={Four} alt="" />
+        <img className="w-[24%] px-1 md:px-3 h-[180px] md:h-[426px]" src={One} alt="" />
+        <img className="w-[24%] px-1 md:px-3 h-[180px] md:h-[426px]" src={Two} alt="" />
+        <img className="w-[24%] px-1 md:px-3 h-[180px] md:h-[426px]" src={Three} alt="" />
+        <img className="w-[24%] px-1 md:px-3 h-[180px] md:h-[426px]" src={Four} alt="" />
       </Slider>
     </div>
     </div>

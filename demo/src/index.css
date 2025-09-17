@@ -8,3 +8,6 @@
   --font-poppins: "Poppins", sans-serif;
 }
 
+.slider-container{
+  overflow: hidden;
+}

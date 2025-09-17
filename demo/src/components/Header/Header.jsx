@@ -10,21 +10,21 @@ const Header = () => {
   return (
     <div className="text-white bg-[#282828] border-b-4 border-[#F40404] font-popins">
       <Container>
-        <div className="flex py-[16px] justify-between">
-          <div className="flex space-x-[50px]">
-            <div className="flex itmes-center items-center gap-2">
+        <div className="md:flex py-[16px] justify-between">
+          <div className="md:flex space-x-[50px]">
+            <div className="flex items-center gap-2">
               <IoMailUnread />
               <p>mail@yourcompany.com</p>
             </div>
 
-            <div className=" relative content-[''] after:absolute after:top-[5px] after:left-[-20px] after:w-[3px] after:h-[16px] after:bg-[#5C6A92] flex itmes-center gap-2 items-center">
+            <div className=" relative content-[''] after:absolute after:top-[5px] after:left-[-20px] after:w-[3px] after:h-[16px] after:bg-[#5C6A92] flex items-center gap-2 mt-2 md:mt-0">
               <FaPhoneVolume />
               <p>+896 120 5889 (Toll free)</p>
             </div>
           </div>
 
           <div>
-            <div className="flex space-x-[20px] justify-between">
+            <div className="flex space-x-[20px] md:justify-between mt-2 md:mt-0">
               <FaFacebookF />
               <FaTwitter />
               <FaInstagramSquare />
